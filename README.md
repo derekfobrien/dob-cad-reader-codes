@@ -1,5 +1,6 @@
 # dobs-cad-reader-codes
 Object-oriented approach to reading an AutoCAD DXF File in C#
+
 This program, which was written in C#, reads a DXF file, which comprises tagged data representing all the information contained in an AutoCAD drawing file. In this format, each item of data is preceded by an integer known as a "group code", which indicates the type of data element that follows.
 
 A DXF file containing even a small number of lines, circles, polylines etc., when opened in Notepad, Notepad++ etc., is upwards of 17,000 lines in length. This is because it contains not only information about the drawing elements, but also of the settings (of which there are a few hundred), information on layers, colours, linetypes and lineweights. Any blocks in the drawing file also have to be described.
